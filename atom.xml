@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linger132568.github.io</id>
     <title>Gridea</title>
-    <updated>2021-08-14T14:08:17.201Z</updated>
+    <updated>2021-08-23T08:04:38.447Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linger132568.github.io"/>
     <link rel="self" href="https://linger132568.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://linger132568.github.io/images/avatar.png</logo>
     <icon>https://linger132568.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[随笔：对明年的期望]]></title>
+        <id>https://linger132568.github.io/post/sui-bi-dui-ming-nian-de-qi-wang/</id>
+        <link href="https://linger132568.github.io/post/sui-bi-dui-ming-nian-de-qi-wang/">
+        </link>
+        <updated>2021-08-23T07:50:08.000Z</updated>
+        <content type="html"><![CDATA[<p>我希望明年北京冬季奥运会可以如期举办，<br>
+我希望明年可以回老家过春节，<br>
+我希望明年春季可以如期开学，<br>
+我希望明年可以给我们初三一个春游的机会，<br>
+我希望明年中考可以考上我理想的高中，<br>
+我希望明年暑假我们六人组可以再去一次日本，<br>
+我希望明年塞尔达旷野之息2不要跳票，<br>
+我希望明年高中生活更为精彩，<br>
+我希望明年不会再有疫情，<br>
+我希望明年不会再有战争。<br>
+那有人问了，今年呢？<br>
+今年我看到了疫情肆虐，<br>
+今年我看到了战火纷飞，<br>
+今年有些人让我恶心不已，<br>
+今年有些事让我毁灭三观。<br>
+但是我还是看到了好的一面，<br>
+还有明年。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://linger132568.github.io/post/hello-gridea/</id>
