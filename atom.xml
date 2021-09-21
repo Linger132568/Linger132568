@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linger132568.github.io</id>
     <title>Gridea</title>
-    <updated>2021-09-01T08:29:09.240Z</updated>
+    <updated>2021-09-21T06:39:52.999Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linger132568.github.io"/>
     <link rel="self" href="https://linger132568.github.io/atom.xml"/>
@@ -33,6 +33,99 @@
 今年有些事让我毁灭三观。<br>
 但是我还是看到了好的一面，<br>
 还有明年。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[塞尔达传说 旷野之息]Amiibo介绍、内容及推荐程度]]></title>
+        <id>https://linger132568.github.io/post/sai-er-da-chuan-shuo-amiibo-jie-shao-nei-rong-ji-tui-jian-cheng-du/</id>
+        <link href="https://linger132568.github.io/post/sai-er-da-chuan-shuo-amiibo-jie-shao-nei-rong-ji-tui-jian-cheng-du/">
+        </link>
+        <updated>2021-08-13T08:42:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>观前注意</strong>：<br>
+1、笔者并不推荐网上的盗版Amiibo，有钱请支持正版。<br>
+2、本文使用的图片除网图外均为笔者自制。<br>
+3、为了不与其他系列作品混淆，笔者在此文中将旷野之息简称为<strong>野炊</strong>（笑）<br>
+4、本文仅代表个人观点，如果不认同，那就以你为准。本文仅供参考。<br>
+5、未经笔者允许，请勿搬运至其他平台。</p>
+</blockquote>
+<h1 id="一-amiibo的介绍与使用">一、Amiibo的介绍与使用</h1>
+<h2 id="1-简介">1、简介</h2>
+<p><strong>Amiibo</strong>是任天堂在2014年6月E3展上发布的系列人偶，即内部配置了近场通信NFC芯片的手办。目前官方已推出两种类型的Amiibo，手办型和卡片型。</p>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file://C:/Users/LENOVO/Documents/Gridea/post-images/1628953298172.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">马里奥系列Amiibo(图源自网络)</div>
+</center>
+<h2 id="2-使用方法与注意事项">2、使用方法与注意事项</h2>
+<h3 id="1基本使用方法">①基本使用方法</h3>
+<p>在游戏中打开Amiibo功能，将Amiibo底部底座<strong>轻触Joy-Con右侧手柄摇杆</strong>，主机就会自动识别其中内置的数据，从而在对应的游戏中刷出对应的物品。<br>
+例如，在《野炊》中我们可以将<strong>希卡之石面板中</strong>的功能调为<strong>Amiibo</strong>，使用<strong>黄昏公主塞尔达</strong>Amiibo可以刷出稀有装备<strong>黄昏弓</strong>（即前作《<strong>塞尔达传说 黄昏公主</strong>》中塞尔达使用的弓）；动物森友会中可以在狸端机上使用Amiibo，通过满足三次小动物提给你的要求，让小动物成功上岛。<s>值得一提的是，官方动森系列Amiibo是卡片形式，但是这并不意味着拼夕夕或某宝上卖的都是正版卡片，因为Amiibo是可以通过购买白卡导入数据自制的。这也就是为什么购物平台上卡片价格奇低的原因。</s></p>
+<h3 id="2进阶人尽皆知amiibo使用方法">②进阶（<s>人尽皆知</s>）Amiibo使用方法</h3>
+<p><strong>第一个方法是SL大法（save＆load，即存档和读档）</strong>。简单易懂：对着一个Amiibo死命刷你想要的东西，刷之前先存档，没刷出想要的就读档，如此往复，直至刷出你想要的东西为止。<br>
+<strong>第二个方法是调时间大法</strong>。看上去很麻烦，但上手了以后是很好用的。为了防止有的小白同学不会，笔者在此做一个保姆级教程。</p>
+<p><strong>第一步</strong>：来到你经常刷Amiibo的地方（笔者这里推荐高原驿站。地势很平坦，不会像山麓驿站那样前面是陡坡宝箱会滑，也不会像有些驿站那样门前很狭窄），然后保存，<strong>退出并<em>关闭游戏</em></strong>。<strong>一定要<em>关闭游戏！</em></strong></p>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file://C:/Users/LENOVO/Documents/Gridea/post-images/1629128899928.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">高原驿站在费罗尼草原，位于地图正南方</div>
+</center>
+<p><strong>第二步</strong>：退出游戏来到switch主页，打开设置，拉到最下方“<strong>主机</strong>”界面，看到右侧有一个<strong>日期与时间</strong></p>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file://C:/Users/LENOVO/Documents/Gridea/post-images/1629129578616.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">设置里的主机界面</div>
+</center>
+<p><strong>第三步</strong>：点进去，看到上面“<strong>通过互联网同步时间</strong>”，把它关掉。</p>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file://C:/Users/LENOVO/Documents/Gridea/post-images/1629129857624.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;"></div>
+</center>
+<p><strong>第四步</strong>：关掉之后点下面的“<strong>现在日期与时间</strong>”，就可以手动调时间了。</p>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file://C:/Users/LENOVO/Documents/Gridea/post-images/1629170871336.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;"></div>
+</center>
+<p><strong>第五步</strong>：设置好之后再打开游戏，就可以继续刷Amiibo了。如果还想继续刷，保存再关闭游戏，再调一次时间然后再进游戏刷。步骤看起来很多，但是上手后很快，一天能刷很多次。</p>
+<h3 id="3注意事项">③注意事项</h3>
+<h4 id="调时间大法虽好用但是似乎有被ban的风险"><strong>调时间大法虽好用，但是似乎有被ban的风险</strong></h4>
+<p>（<s>被ban简单来讲就是你的海外机变成了国行机，不能连上老任的服务器，导致游戏不能更新不能下载，eshop用不了。不过一般这个只针对一个账号，换一个还能正常用。更严重者可能会被ban机，那你整个机子都没用了</s>）<br>
+目前网上反映的调时间刷Amiibo被ban可能是因为每天刷的次数太多。所以一天刷两三次就够了，别太贪心，<s>一直刷但脸黑不也刷不出来吗</s><br>
+如果你并没有高频刷Amiibo仍然被ban，那可能就是其他问题了。例如比较常见的是在购物平台上买到了黑卡。所以说买游戏还是<strong>买卡带、充点卡、绑PayPal</strong>比较好。</p>
+<h4 id="注意游戏中前期amiibo有限制"><strong>注意游戏中前期Amiibo有限制</strong>。</h4>
+<p>Amiibo要等出了初始台地后才能用，但是前期一般刷不出来好东西。Amiibo会根据你游戏剧情的推进程度来提升稀有物品抽到的概率（<s>变相抽卡</s>）。同时笔者用自己的亲身经历告诉各位：就算你有四张黄昏公主Amiibo轮流刷，就算你每天都刷，抽出黄昏弓的概率依然是个谜（······</p>
+<h4 id="用与所玩游戏相对应的amiibo"><strong>用与所玩游戏相对应的Amiibo</strong></h4>
+<p>还要注意的是，<strong>如果你在《野炊》中使用了其他游戏对应的Amiibo</strong>，那么你就会惊奇地发现：&quot;诶？我怎么只能刷出来一堆肉一堆鱼，什么装备都没有？&quot;那就对了，你用其他游戏的Amiibo去刷《野炊》当然刷不出东西······所以在使用Amiibo时<strong>请务必要确认自己使用的Amiibo是与所玩游戏相对应的</strong>。</p>
+<h2 id="3-购买建议">3、购买建议</h2>
+<p>使用正版Amiibo是绝对没有任何风险的。但是相对的，正版Amiibo价格就要高的<strong>多得多</strong>。以《野炊》一套为例，国外一个Amiibo不含税要12.99刀（<s>折合软妹币约100多</s>），到国内后价格含税更是高了一番，某宝上一套要<strong>6000多</strong>。要知道《野炊》一套Amiibo一共就24款，算笔账下来<strong>一款大概要250多软妹币</strong>。所以不是不推荐正版，但笔者还是建议<strong>如果你不是骨灰级玩家，这个钱还是省下来买点别的游戏吧</strong>。某宝上盗版卡用的是官方数据且论盒卖，笔者买的Amiibo卡60多块27张卡（<s>为了刷黄昏弓多买了三张</s>），yysy还是很实惠的。</p>
+<p>ok，先码这么多，之后再更推荐程度。笔者还得再刷一刷。</p>
 ]]></content>
     </entry>
     <entry>
