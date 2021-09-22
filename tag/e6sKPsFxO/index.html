@@ -1,253 +1,161 @@
-<html>
 
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    塞尔达传说 旷野之息 | Gridea
-</title>
-<link rel="shortcut icon" href="https://linger132568.github.io/favicon.ico?v=1632297230860">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>塞尔达传说 旷野之息 | Gridea</title>
+<meta name="description" content="It will be fine.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://linger132568.github.io/favicon.ico?v=1632297593244">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://linger132568.github.io/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://linger132568.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-</head>
 
-<body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://linger132568.github.io">
-                <img class="avatar" src="https://linger132568.github.io/images/avatar.png?v=1632297230860" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    Gridea
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/post/about" class="menu">
-                                    关于
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://linger132568.github.io">
+        <img class="avatar" src="https://linger132568.github.io/images/avatar.png?v=1632297593244" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://linger132568.github.io">
+        <h1 class="site-title">Gridea</h1>
+      </a>
     </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
-
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-container main-container">
-                <div id="content" class="main-container-left">
-                    
-    <div class="i-card">
-        <b>标签：#
-        塞尔达传说 旷野之息</b>
-    </div>
-    
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
         
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://linger132568.github.io/post/sai-er-da-chuan-shuo-amiibo-jie-shao-nei-rong-ji-tui-jian-cheng-du/">
-                        [塞尔达传说 旷野之息]Amiibo介绍、内容及推荐程度
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2021-08-13</time>
-                    
-                        <a href="https://linger132568.github.io/tag/e6sKPsFxO/" class="post-tag i-tag
-                            i-tag-primary">
-            #塞尔达传说 旷野之息
-        </a>
-                        
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            
-观前注意：
-1、笔者并不推荐网上的盗版Amiibo，有钱请支持正版。
-2、本文使用的图片除网图外均为笔者自制。
-3、为了不与其他系列作品混淆，笔者在此文中将旷野之息简称为野炊（笑）
-4、本文仅代表个人观点，如果不认同，那就以你为准。本文仅供参考。
-5、未经笔者允许，请勿搬运至其他平台。
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
-一、Amiibo的介绍与使用
-1、简介
-Amiibo是任天堂在2014年6月E3展上发布的系列人偶，即内部配置了近场通信NFC芯片的手办。目前官方已推出两种类型的Amiibo，手办型和卡片型。
 
-    
-    
-    马里奥系列Amiibo(图源自网络)
+      <div class="content-container">
 
-2、使用方法与注意事项
-①基本使用方法
-在游戏中打开Amiibo功能，将Amiibo底部底座轻触Joy-Con右侧手柄摇杆，主机就会自动识别其中内置的数据，从而在对应的游戏中刷出对应的物品。
-例如，在《野炊》中我们可以将希卡之石面板中的功能调为Amiibo，使用黄昏公主塞尔达Amiibo可以刷出稀有装备黄昏弓（即前作《塞尔达传说 黄昏公主》中塞尔达使用的弓）；动物森友会中可以在狸端机上使用Amiibo，通过满足三次小动物提给你的要求，让小动物成功上岛。值得一提的是，官方动森系列Amiibo是卡片形式，但是这并不意味着拼夕夕或某宝上卖的都是正版卡片，因为Amiibo是可以通过购买白卡导入数据自制的。这也就是为什么购物平台上卡片价格奇低的原因。
-②进阶（人尽皆知）Amiibo使用方法
-第一个方法是SL大法（save＆load，即存档和读档）。简单易懂：对着一个Amiibo死命刷你想要的东西，刷之前先存档，没刷出想要的就读档，如此往复，直至刷出你想要的东西为止。
-第二个方法是调时间大法。看上去很麻烦，但上手了以后是很好用的。为了防止有的小白同学不会，笔者在此做一个保姆级教程。
-第一步：来到你经常刷Amiibo的地方（笔者这里推荐高原驿站。地势很平坦，不会像山麓驿站那样前面是陡坡宝箱会滑，也不会像有些驿站那样门前很狭窄），然后保存，退出并关闭游戏。一定要关闭游戏！
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 塞尔达传说 旷野之息
+          </h2> 
+        </div>
 
-    
-    
-    高原驿站在费罗尼草原，位于地图正南方
-
-第二步：退出游戏来到switch主页，打开设置，拉到最下方“主机”界面，看到右侧有一个日期与时间
-
-    
-    
-    设置里的主机界面
-
-第三步：点进去，看到上面“通过互联网同步时间”，把它关掉。
-
-    
-    
-    
-
-第四步：关掉之后点下面的“现在日期与时间”，就可以手动调时间了。
-
-    
-    
-    
-
-第五步：设置好之后再打开游戏，就可以继续刷Amiibo了。如果还想继续刷，保存再关闭游戏，再调一次时间然后再进游戏刷。步骤看起来很多，但是上手后很快，一天能刷很多次。
-③注意事项
-调时间大法虽好用，但是似乎有被ban的风险
-（被ban简单来讲就是你的海外机变成了国行机，不能连上老任的服务器，导致游戏不能更新不能下载，eshop用不了。不过一般这个只针对一个账号，换一个还能正常用。更严重者可能会被ban机，那你整个机子都没用了）
-目前网上反映的调时间刷Amiibo被ban可能是因为每天刷的次数太多。所以一天刷两三次就够了，别太贪心，一直刷但脸黑不也刷不出来吗
-如果你并没有高频刷Amiibo仍然被ban，那可能就是其他问题了。例如比较常见的是在购物平台上买到了黑卡。所以说买游戏还是买卡带、充点卡、绑PayPal比较好。
-注意游戏中前期Amiibo有限制。
-Amiibo要等出了初始台地后才能用，但是前期一般刷不出来好东西。Amiibo会根据你游戏剧情的推进程度来提升稀有物品抽到的概率（变相抽卡）。同时笔者用自己的亲身经历告诉各位：就算你有四张黄昏公主Amiibo轮流刷，就算你每天都刷，抽出黄昏弓的概率依然是个谜（······
-用与所玩游戏相对应的Amiibo
-还要注意的是，如果你在《野炊》中使用了其他游戏对应的Amiibo，那么你就会惊奇地发现：&amp;quot;诶？我怎么只能刷出来一堆肉一堆鱼，什么装备都没有？&amp;quot;那就对了，你用其他游戏的Amiibo去刷《野炊》当然刷不出东西······所以在使用Amiibo时请务必要确认自己使用的Amiibo是与所玩游戏相对应的。
-3、购买建议
-使用正版Amiibo是绝对没有任何风险的。但是相对的，正版Amiibo价格就要高的多得多。以《野炊》一套为例，国外一个Amiibo不含税要12.99刀（折合软妹币约100多），到国内后价格含税更是高了一番，某宝上一套要6000多。要知道《野炊》一套Amiibo一共就24款，算笔账下来一款大概要250多软妹币。所以不是不推荐正版，但笔者还是建议如果你不是骨灰级玩家，这个钱还是省下来买点别的游戏吧。某宝上盗版卡用的是官方数据且论盒卖，笔者买的Amiibo卡60多块27张卡（为了刷黄昏弓多买了三张），yysy还是很实惠的。
-ok，先码这么多，之后再更推荐程度。笔者还得再刷一刷。
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://linger132568.github.io/post/sai-er-da-chuan-shuo-amiibo-jie-shao-nei-rong-ji-tui-jian-cheng-du/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://linger132568.github.io/post/sai-er-da-chuan-shuo-amiibo-jie-shao-nei-rong-ji-tui-jian-cheng-du/">
+        <h2 class="post-title">[塞尔达传说 旷野之息]Amiibo介绍、内容及推荐程度</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2021-08-13</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
             
-                <!-- 翻页 -->
+              <a href="https://linger132568.github.io/tag/e6sKPsFxO/">
+                塞尔达传说 旷野之息
                 
-                </div>
-                <!--  -->
-                <div class="main-container-middle"></div>
-                <!--  -->
-                <div id="sidebar" class="main-container-right">
-
-                    <!-- 个人信息 -->
-                    
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://linger132568.github.io/images/avatar.png?v=1632297230860)">
-        </div>
-        <h1 class="id_card-title">
-            Gridea
-        </h1>
-        <h2 class="id_card-description">
-            It will be fine.
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
+              </a>
             
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
-
-        </div>
+          </span>
+        
+      </div>
     </div>
     
-
-                        <!-- 公告栏 -->
-                        
-
-                </div>
-            </div>
+  </section>
 
 
-
-            <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://linger132568.github.io/atom.xml" target="_blank">RSS</a>
+<div class="pagination-container">
+  
+  
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">It will be fine.</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://linger132568.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
-</body>
+    <script type="application/javascript">
 
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
 </html>
